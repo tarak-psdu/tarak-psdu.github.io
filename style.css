@@ -14,9 +14,7 @@ body {
 
 section h2 {
   text-align: center;
-  font-size: 60px;
-  color: #172B4D;
-  font-family: 'Inter';
+  color: #172b4d;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -25,18 +23,17 @@ section h2 {
 }
 
 .welcome-text {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .welcome-paragraph {
   text-align: center;
   margin: 20px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .icon {
@@ -49,6 +46,6 @@ section h2 {
 }
 
 .icon div img {
-  Width: 19.99px;
-  Height: 19.96px;
+  width: 19.99px;
+  height: 19.96px;
 }
