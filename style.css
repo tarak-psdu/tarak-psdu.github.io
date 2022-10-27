@@ -5,11 +5,13 @@ body {
   width: 100%;
   margin: auto;
 }
+
 .flex-container {
   margin: 20px;
   display: flex;
   justify-content: space-between;
 }
+
 section h2 {
   text-align: center;
   font-size: 60px;
@@ -21,9 +23,11 @@ section h2 {
   line-height: 52px;
   width: 100%;
 }
+
 .welcome-text {
   color: #36B37E;
 }
+
 .welcome-paragraph {
   text-align: center;
   margin: 20px;
@@ -34,13 +38,16 @@ section h2 {
   line-height: 28px;
   color: #172B4D;
 }
+
 .icon {
   display: flex;
   justify-content: center;
 }
+
 .icon div {
   margin: 10px;
 }
+
 .icon div img {
   Width: 19.99px;
   Height: 19.96px;
