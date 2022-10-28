@@ -1,18 +1,19 @@
 body {
-  background-image: url(./images/header-illsutration-mobile@2x.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin: auto;
+  background-color: #ffffff;
 }
 
 .flex-container {
-  margin: 20px;
   display: flex;
   justify-content: space-between;
+  background: #ffffff;
+  margin: 10px;
 }
 
-section h2 {
+.flex-container a {
+  text-decoration: none;
+}
+
+section h1 {
   text-align: center;
   color: #172b4d;
   font-style: normal;
@@ -36,16 +37,28 @@ section h2 {
   color: #172b4d;
 }
 
+main {
+  background-image: url(./images/header-illsutration-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  height: 30%;
+  min-height: 550px;
+}
+
 .icon {
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
-.icon div {
+.icon li {
+  width: 19.99px;
+  height: 19.96px;
   margin: 10px;
 }
 
-.icon div img {
-  width: 19.99px;
-  height: 19.96px;
+.icon li a {
+  text-decoration: none;
 }
