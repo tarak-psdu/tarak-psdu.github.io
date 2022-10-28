@@ -7,14 +7,15 @@ body {
   justify-content: space-between;
   background: #fff;
   margin: 10px;
-}
-
-.flex-container h1 {
   color: #28352f;
 }
 
 .flex-container a {
   text-decoration: none;
+}
+
+.flex-container h1 {
+  color: #28352f;
 }
 
 section h1 {
