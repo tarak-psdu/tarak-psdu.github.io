@@ -1,12 +1,16 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  background: #ffffff;
+  background: #fff;
   margin: 10px;
+}
+
+.flex-container a h1 {
+  color: #28352f;
 }
 
 .flex-container a {
