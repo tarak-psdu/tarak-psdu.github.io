@@ -1,0 +1,69 @@
+body {
+  background-color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin: 10px;
+  color: #28352f;
+}
+
+.flex-container a {
+  text-decoration: none;
+}
+
+.flex-item {
+  color: #28352f;
+}
+
+section h1 {
+  text-align: center;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: 100%;
+}
+
+.welcome-text {
+  color: #36b37e;
+}
+
+.welcome-paragraph {
+  text-align: center;
+  margin: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+main {
+  background-image: url(./images/header-illsutration-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  height: 30%;
+  min-height: 550px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.icon li {
+  width: 19.99px;
+  height: 19.96px;
+  margin: 10px;
+}
+
+.icon li a {
+  text-decoration: none;
+}
