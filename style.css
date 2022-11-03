@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 body {
   background-color: #fff;
 }
@@ -54,8 +55,9 @@ main {
 
 .icon {
   display: flex;
-  justify-content: center;
   list-style-type: none;
+  justify-content: center;
+  margin-left: -40px;
 }
 
 .icon li {
@@ -66,4 +68,363 @@ main {
 
 .icon li a {
   text-decoration: none;
+}
+
+.action img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+.works-title h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.works-title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+.works-section {
+  display: grid;
+  justify-content: center;
+}
+
+.recent-works {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: auto;
+  align-items: end;
+  margin-top: 75px;
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 474px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.works-des {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  color: #3a4a42;
+  height: 222px;
+  width: auto;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.works-des h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.works-des ul {
+  display: flex;
+  margin-left: -35px;
+}
+
+.works-des ul li {
+  margin: 3px;
+  list-style-type: none;
+}
+
+.works-des a {
+  text-decoration: none;
+  background-color: #ebf0ee;
+  color: #3a4a42;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.works-des button {
+  background-color: #36b37e;
+  color: #fff;
+  margin-top: 26px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.works-des button:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+.works-des button:active {
+  background-color: #e74c3c;
+}
+
+.about-me {
+  background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #172b4d;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.resume {
+  background-image: url(./images/about-me-mobile-2.png);
+  background-repeat: no-repeat;
+  min-height: 58px;
+}
+
+.resume button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  border: none;
+  width: 159px;
+  height: 48px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.resume button:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+.resume button:active {
+  background-color: #e74c3c;
+}
+
+.language {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 75px;
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 352px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.language img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.languages ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.languages ul li {
+  margin: 5px;
+  list-style-type: none;
+}
+
+.language h3 {
+  font-style: normal;
+  text-align: center;
+  color: #344563;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.languages a {
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #36b37e;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.languages-h3 {
+  margin-top: -20px;
+  font-style: normal;
+  color: #344563;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.frameworks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: -40px;
+}
+
+.frameworks ul li {
+  list-style-type: none;
+}
+
+.frameworks a {
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #36b37e;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 5px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: -40px;
+}
+
+.skills ul li {
+  list-style-type: none;
+}
+
+.skills a {
+  text-decoration: none;
+  margin: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #36b37e;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.touch {
+  margin: 24px;
+  text-align: center;
+}
+
+.touch h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-style: normal;
+  color: #172b4d;
+}
+
+.form input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+  height: 48px;
+  margin-top: 24px;
+  padding: 15px 16px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+}
+
+.form input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.form textarea {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 295px;
+  height: 144px;
+  margin-top: 24px;
+  padding: 18px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.touch-button {
+  background: url(./images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  min-height: 100px;
+  background-position: right;
+  margin-top: 24px;
+}
+
+.touch-button button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  border: none;
+  width: 159px;
+  height: 48px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.touch-button button:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+.touch-button button:active {
+  background-color: #e74c3c;
+}
+
+.email {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+.last {
+  display: block;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
