@@ -169,13 +169,13 @@
     <section class="touch">
         <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </section>
-    <article class="form">
-        <input type="text" placeholder="Full name">
-        <input type="email" placeholder="Email address">
-        <textarea name="" id="" cols="30" rows="10">Enter text here</textarea>
-    </article>
+    <form class="form" action="https://formspree.io/f/xpznodbr" method="POST">
+        <input class="common" type="text" placeholder="Full name" required maxlength="30">
+        <input class="common" type="email" placeholder="Email address" required>
+        <textarea name="message" id="" cols="30" rows="10" maxlength="500" required>Enter text here</textarea>
+        <input class="submit" type="submit" value="Get in touch">
+    </form>
     <article class="touch-button">
-        <button type="button">Get in touch</button>
         <ul class="icon">
             <li>
                 <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
