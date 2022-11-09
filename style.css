@@ -15,7 +15,6 @@ body {
   color: #28352f;
 }
 
-
 .flex-container a {
   text-decoration: none;
 }
@@ -138,12 +137,15 @@ main {
 
 .works-des ul {
   display: flex;
+  justify-content: center;
   margin-left: -35px;
+  flex-wrap: wrap;
 }
 
 .works-des ul li {
-  margin: 3px;
   list-style-type: none;
+  margin: 3px;
+  font-size: 14px;
 }
 
 .works-des a {
