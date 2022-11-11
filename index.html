@@ -8,15 +8,22 @@
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header-m">
         <nav class="flex-container">
            <a href="#"><h1 class="flex-item">Welcome</h1></a>
            <a href="#"><img class="flex-item" src="./images/vector.jpg" alt=""></a>
         </nav>
     </header>
     <main>
+    <menue class="menue">
+        <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </menue>
     <section>
-        <h1>Hey there. I’m Mariane</br>
+        <h1>Hey there. I’m Alex.</br>
             <span class="welcome-text">I’m a software developer</span></h1>
             <p class="welcome-paragraph"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hestiate to contact me.</p>
@@ -120,6 +127,7 @@
     </article>
 </article>
 </section>
+<section class="d-about">
 <section class="about-me">
     <h2>About me</h2>
 </section>
@@ -128,9 +136,11 @@
     <article class="resume">
         <button type="button">Get My Resume</button>
     </article>
+</section>
+    <section class="languages-d">
     <section class="language">
         <img src="./images/icon-languages.png" alt="">
-        <h3>Languages</h3>
+        <h3 class="l-desktop">Languages</h3>
         <article class="languages">
             <ul>
                 <li><a href="#">JavaScript</a></li>
@@ -166,8 +176,10 @@
             </ul>
         </article>
     </section>
+</section>
+<div class="contact">
     <section class="touch">
-        <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
     </section>
     <form class="form" action="https://formspree.io/f/xpznodbr" method="POST">
         <input class="common" type="text" placeholder="Full name" required maxlength="30">
@@ -175,6 +187,8 @@
         <textarea name="message" id="" cols="30" rows="10" maxlength="500" required>Enter text here</textarea>
         <input class="submit" type="submit" value="Get in touch">
     </form>
+</div>
+<div class="touch-button-d">
     <article class="touch-button">
         <ul class="icon">
             <li>
@@ -194,6 +208,25 @@
             </li>
         </ul>
     </article>
+</div>
+    <hr/>
+    <ul class="d-icon">
+        <li>
+            <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
+        </li>
+        <li>
+            <a href="#"><img src="./images/Linkedin icon.png" alt="Linkedin"></a>
+        </li>
+        <li>
+            <a href="#"><img src="./images/medium.png" alt="Medium"></a>
+        </li>
+        <li>
+            <a href="#"><img src="./images/github.png" alt="Github"></a>
+        </li>
+        <li>
+            <a href="#"><img src="./images/angellist.png" alt="Angellist"></a>
+        </li>
+    </ul>
     <p class="email">myemailhere@email.com</p>
     <img class="last" src="./images/Shape.png" alt="">
 </body>
