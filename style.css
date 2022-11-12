@@ -22,6 +22,15 @@
     font-weight: 600;
   }
 
+  /* stylelint-disable-next-line no-duplicate-selectors */
+  .icon li {
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .icon:hover li {
+    transform: rotate(360deg);
+  }
+
   .header-m {
     display: none;
   }
@@ -70,6 +79,7 @@
     margin-left: -40px;
   }
 
+  /* stylelint-disable-next-line no-duplicate-selectors */
   .icon li {
     width: 19.99px;
     height: 19.96px;
