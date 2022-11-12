@@ -17,7 +17,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 @Vgonma
-@ceddddy
+@rashed
 
 # 📝 License
 This project is [MIT](./LICENSE) licensed.
