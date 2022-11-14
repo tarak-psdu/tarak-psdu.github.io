@@ -1,9 +1,9 @@
 # Personal-Portfolio
 Portfolio: setup and mobile first
+Online Version: https://tarak-psdu.github.io
 
 # Built With
 HTML and CSS
-
 
 # 👤 Author
 GitHub: [@githubhandle](https://github.com/tarak-psdu)
